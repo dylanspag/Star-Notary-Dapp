@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>StarNotary DAPP</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <title>Star Notary Dapp</title>
+    <link  rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700'>
   </head>
   <style>
     input {
@@ -10,26 +10,23 @@
       margin-bottom: 12px;
     }
   </style>
+  <script src="index.js"></script>
   <body>
     <h1>StarNotary Token DAPP</h1>
-
-    <hr>
-
-    <br>
-      <h1>Create a Star</h1>
-      <br><label for="starName">Star Name:</label><input type="text" id="starName"></input>
-      <br><label for="starId">Star ID:</label><input type="text" id="starId"></input>
-      <br><br><button id="createStar" onclick="App.createStar()">Create Star</button>
-      <br>
-      <hr>
-      <br>
-      <h1>Look up a Star</h1>
-      <br><label for="name">Star ID:</label><input type="text" id="lookid"></input>
-      <br><br><button onclick="App.lookUp()">Look Up a Star</button>
-      <hr>
-      <br>
-      <span id="status"></span>
-      <br>
-    <script src="index.js"></script>
+    <hr/>
+    <h2>Create a Star</h1>
+    <label for="starName">Star Name:</label>
+    <input type="text" id="starName"></input>
+    <label for="starId">Star ID:</label>
+    <input type="text" id="starId"></input>
+    <button id="createStar" onclick="App.createStar()">Create Star</button>
+    <hr/>
+    <h2>Look up a Star</h1>
+    <label for="name">Star ID:</label>
+    <input type="text" id="lookId"></input>
+    <button onclick="App.lookUp()">Look Up a Star</button>
+    <br/>
+    <br/>
+    <span id="status"/>
   </body>
 </html>
