@@ -11,4 +11,4 @@ from Udacity.
 - OpenZeppelin Version: 2.5.1
 - Token Name: Rinkeby Star Tokens
 - Token Symbol: RST
-- Rinkeby Contract Address: 0xfE263A396B8a88B1b131aC116756b221B13212eA
+- Rinkeby Contract Address: [0xfE263A396B8a88B1b131aC116756b221B13212eA](https://rinkeby.etherscan.io/address/0xfE263A396B8a88B1b131aC116756b221B13212eA)
